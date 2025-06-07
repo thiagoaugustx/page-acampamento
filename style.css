@@ -730,6 +730,152 @@ box-shadow: 0px 0px 37px 0px rgba(0,0,0,0);
 
 /*FIM DOS TESTEMUNHOS*/
 
+/*ACAMPAMENTOS*/
+
+#acampamentos-domdedeus{
+  height: 90vh;
+  background-color: #586e26;
+  width: 100% !important;
+    padding-top: 10vh;
+
+}
+
+
+#acampamentos-domdedeus h3{
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+}
+
+.acampamentos-domdedeus{
+  width: 1080px !important;
+  margin: 0 auto !important;
+
+}
+
+.boxs-cursos{
+  display: flex !important;
+}
+
+#cursos{
+  background-color: #b7cd7f;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  opacity: 0.4;
+  margin-top: 5vh;
+  height: 40vh;
+}
+
+#cursos a{
+  text-decoration: none;
+}
+
+#cursos:hover{
+  transition: 0.8s;
+  scale: 1.25;
+  opacity: 1;
+ backdrop-filter: blur(50px);
+  background: rgba(255, 255, 255, 0.325);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+-webkit-backdrop-filter
+: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+#cursos h6{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  width: 90% !important;
+}
+
+#cursos img{
+  width: 210px;
+
+}
+
+#cursos p{
+  color: #fff;
+  font-size: 13px;
+}
+
+    @media (max-width: 1023px){
+      #acampamentos-domdedeus{
+  height: 260vh;
+  background-color: #586e26;
+  width: 100% !important;
+    padding-top: 10vh;
+
+}
+
+
+#acampamentos-domdedeus h3{
+  text-align: center;
+  font-size: 25px;
+  width: 50vh;
+  color: #fff;
+}
+
+.acampamentos-domdedeus{
+  margin: 0 auto !important;
+
+}
+
+.boxs-cursos{
+  display: block !important;
+}
+
+#cursos{
+  background-color: #b7cd7f;
+  padding: 30px;
+  width: 45vh;
+  margin: 10px;
+  border-radius: 10px;
+  opacity:1;
+  margin-top: 5vh;
+  margin-left: 3.5vh;
+  height: auto;
+}
+
+#cursos a{
+  text-decoration: none;
+}
+
+#cursos:hover{
+  transition: none;
+  opacity: 1;
+  scale: 1;
+  background-color: #b7cd7f;
+}
+
+
+#cursos h6{
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding-bottom: 2vh;
+}
+
+#cursos img{
+  width: 210px;
+  margin-left: 5vh;
+}
+
+#cursos p{
+  color: #fff;
+  font-size: 13px;
+}
+    }
+
+/*ACAMPAMENTOS*/
+
+
+
 /*RODAPE*/
     #rodape{
         height: 120px;
